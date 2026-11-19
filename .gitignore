@@ -1,0 +1,60 @@
+
+# Python virtual environment
+venv/
+.venv/
+env/
+
+# API keys and environment variables
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Uploaded PDF files
+data/uploads/
+uploads/
+*.pdf
+
+# FAISS vector database
+vectorstore/
+vector_store/
+faiss_index/
+*.faiss
+*.index
+*.pkl
+*.pickle
+
+# Downloaded models and cache
+.cache/
+models/
+huggingface_cache/
+
+# Streamlit cache
+.streamlit/cache/
+
+# IDE files
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Python build files
+build/
+dist/
+*.egg-info/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
